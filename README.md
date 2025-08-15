@@ -48,24 +48,24 @@ Each challenge is self-contained, and the player works in a **sandboxed environm
 ```bash
 git clone https://github.com/Aabidak/CTF-scoreboard.git
 unzip CaptureTheFlag.zip
-cd CaptureTheFlag-CommandLine
-sudo ./setup.sh 
+cd CaptureTheFlag
+chmod +x Setup.sh
+sudo ./Setup.sh 
 
 ```
 
 #### Enter your nickname when prompted. A new Linux user account will be created, and a personal copy of the challenges will be placed in their home directory.
 
-Access your CTF session:
-```
-su - <nickname>
-cd ~/CaptureTheFlag
-```
+
+---
+
 Complete challenges by navigating folders, using commands, and solving puzzles to reveal the hidden flags.
 
 ## Session Isolation:
 
 After exiting your su session, the challenge folder remains locked and can only be accessed by logging back in with your nickname.
 
+---
 
 ## Submit flags and track your progress on the official scoreboard:
 
