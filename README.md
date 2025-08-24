@@ -69,7 +69,7 @@ After exiting your su session, the challenge folder remains locked and can only 
 
 ## Submit flags and track your progress on the official scoreboard:
 
- [https://aabidak.github.io/CTF-scoreboard/]
+## [https://aabidak.github.io/CTF-scoreboard/]
 
 ---
 
